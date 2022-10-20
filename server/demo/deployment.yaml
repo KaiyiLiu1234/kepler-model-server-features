@@ -6,7 +6,7 @@ metadata:
 data:
   MODEL_PATH: '../demo/models'
   PROM_SERVER: 'http://prometheus-k8s.monitoring.svc.cluster.local:9090'
-  PROM_QUERY_INTERVAL: '20'
+  PROM_QUERY_INTERVAL: '3'
   PROM_QUERY_STEP: '3'
   PROM_HEADERS: ''
   PROM_SSL_DISABLE: 'true'
